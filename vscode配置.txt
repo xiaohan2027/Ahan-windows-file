@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "browse":{
+                "path":[
+                    "${workspaceFolder}/src",
+                    "${workspaceFolder}/include",
+                    "/opt/geant4/geant4-install/include/Geant4",
+                    "/opt/geant4/geant4-v11.1.2/source",
+                     "/opt/root/include"
+                    
+                ],
+                "limitSymbolsToIncludedHeaders":true
+            },
+            "includePath":[
+                    "${workspaceFolder}/src",
+                    "${workspaceFolder}/include",
+                    "/opt/geant4/geant4-install/include/Geant4",
+                    "/opt/geant4/geant4-v11.1.2/source",
+                     "/opt/root/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
